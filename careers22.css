@@ -1,0 +1,716 @@
+
+/*
+@import url('https://fonts.googleapis.com css?family= Poppins: 200,300,400,500, 600, 700,800, 900&display=swap');
+*
+
+{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+ }
+
+
+
+Section 
+ {
+
+position: relative;
+width: 100%;
+min-height: 100vh; 
+padding: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #fff;
+ }
+
+
+header
+{
+position: fixed;
+top: 0;
+Left: 0;
+right: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #fff;
+z-index: 999;
+}
+
+header .logo
+{
+position: relative;
+max-width: 80px;
+
+}
+
+
+header ul
+{
+
+position: relative; 
+display: flex;
+}
+
+header ul li
+{
+ List-style: none;
+}
+
+header ul li a
+{
+display: inline-block;
+color: #333;
+font-weight: 400; 
+margin-left: 40px; 
+text-decoration: none;
+}
+
+
+.content
+{
+position: relative; 
+max-width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+    padding-top: 50px;
+}
+
+.content .textBox h2
+{
+color: #000000;
+font-size: 4em;
+Line-height: 1.4em;
+ font-weight: 500;
+}
+
+.content .textBox h2 span
+ {
+
+    color: brown;
+    font-size: 1.2em;
+    font-weight: 700;
+
+ }
+
+.content .textBox p
+{
+color: #333;
+
+}
+
+.content .textBox a
+{
+display: inline-block;
+margin-top: 20px;
+padding: 8px 20px;
+background: #917143;
+color: #fff;
+border-radius: 40px;
+font-weight: 500;
+letter-spacing: 1px;
+text-decoration: none;
+}
+
+.content .imgbox
+{
+
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+
+
+}
+
+.content .imgbox img
+{
+    height: 450px;
+    width: 340px;
+    max-width: 340px;
+}
+
+
+
+.coffee
+{
+
+    position: absolute;
+    right: 30%;
+    bottom: 20px;
+}
+
+.coffee li
+{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s; 
+    
+
+}
+
+.coffee li:hover
+{
+
+transform: translate(-15px);
+
+}
+
+.coffee li img
+{
+
+    max-width: 60px;
+    height: 70px;
+    width: 80px;
+    margin-right: 60px;
+}
+
+
+.social
+{
+
+position: absolute;
+top: 35%;
+padding-left: 1190px;
+transform: translateY(-50%);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.social li img
+{
+
+width: 70px;
+height: 70px;
+
+}
+.social li 
+
+{
+
+list-style: none;
+
+}
+
+.social li a 
+
+{
+
+ display: inline-block;
+ margin: 5px 0;
+ transform: scale(0.6);
+ filter: invert(1);
+
+}
+
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: brown;
+    clip-path: circle(600px at right 800px);
+
+
+}
+*/
+
+
+/* iphone 12 */
+
+
+
+header ul
+{
+
+position: relative; 
+display: flex;
+
+}
+
+header ul li
+{
+ List-style: none;
+}
+
+header ul li a
+{
+display: inline-block;
+color: #333;
+font-weight: 400; 
+margin-left: 40px; 
+text-decoration: none;
+
+}
+
+
+.content{
+
+    width: 100%;
+}
+
+.circle{
+
+    display: none;
+}
+
+.textBox{
+
+width: 100%;
+
+}
+
+.textBox h2{
+
+    padding: 50px 30px 20px;
+    font-size: 50px;
+    color: #000000;
+    line-height: 54px;
+
+
+}
+
+
+.textBox p{
+
+    padding: 0px 30px 10px;
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+
+
+}
+
+.logo{
+
+    width: 100%;
+}
+
+.content .textBox a
+{
+display: inline-block;
+margin-top: 20px;
+padding: 8px 20px;
+background: #917143;
+color: #fff;
+border-radius: 40px;
+font-weight: 500;
+letter-spacing: 1px;
+text-decoration: none;
+margin-left: 150px;
+}
+
+.coffee img{
+
+    display: none;
+}
+
+.imgbox img{
+
+    display: none;
+}
+
+
+.coffee li{
+
+    display: none;
+}
+
+.social img{
+
+display: none;
+
+}
+
+.social li{
+
+    display: none;
+    
+    }
+
+
+
+/*ipad mini*/
+@media only screen and (min-width: 768px ) {
+   
+
+
+
+    header ul
+    {
+    
+    position: relative; 
+    display: flex;
+    
+    }
+    
+    header ul li
+    {
+     List-style: none;
+    }
+    
+    header ul li a
+    {
+    display: inline-block;
+    color: #333;
+    font-weight: 400; 
+    margin-left: 15px; 
+    text-decoration: none;
+    
+    }
+
+
+    .content{
+
+        width: 768px;
+        margin: 0 auto;
+
+    }
+
+    .textBox{
+
+        width: 768px;
+        
+        }
+        
+
+    .textBox h2{
+
+        padding: 50px 20px 40px;
+    
+    
+    
+    }
+    
+    
+    .textBox p{
+    
+        padding: 0px 20px 10px;
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+    
+    
+    }
+
+    .logo{
+
+        width: 100px;
+        height: 100px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px ) {
+    
+
+@import url('https://fonts.googleapis.com css?family= Poppins: 200,300,400,500, 600, 700,800, 900&display=swap');
+*
+
+{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+ }
+
+
+
+Section 
+ {
+
+position: relative;
+width: 100%;
+min-height: 100vh; 
+padding: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #fff;
+ }
+
+
+header
+{
+position: fixed;
+top: 0;
+Left: 0;
+right: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #fff;
+z-index: 999;
+}
+
+header .logo
+{
+position: relative;
+max-width: 80px;
+
+}
+
+
+header ul
+{
+
+position: relative; 
+display: flex;
+}
+
+header ul li
+{
+ List-style: none;
+}
+
+header ul li a
+{
+display: inline-block;
+color: #333;
+font-weight: 400; 
+margin-left: 40px; 
+text-decoration: none;
+}
+
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+    padding-top: 50px;
+  
+}
+
+.content .textBox h2
+{
+color: #000000;
+font-size: 4em;
+Line-height: 1.4em;
+ font-weight: 500;
+}
+
+.content .textBox h2 span
+ {
+
+    color: brown;
+    font-size: 1.2em;
+    font-weight: 700;
+
+ }
+
+.content .textBox p
+{
+color: #333;
+font-size: 25px;
+
+}
+
+
+
+.content .imgbox
+{
+
+    width: 1000px;
+    display: inline-block;
+    justify-content: flex-end;
+    padding-top: 100px;
+    padding-left: 160px;
+ 
+
+
+}
+
+
+.content .imgbox img
+{
+    height: 550px;
+    width: 400px;
+    max-width: 500px;
+    display: block;
+
+
+}
+
+
+
+.coffee
+{
+
+    position: absolute;
+    right: 30%;
+    bottom: 200px;
+}
+
+.coffee li
+{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s; 
+    
+
+}
+
+.coffee li:hover
+{
+
+transform: translate(0px,-20px);
+
+}
+
+.coffee li img
+{
+
+    max-width: 60px;
+    height: 70px;
+    width: 80px;
+    margin-right: 60px;
+    display: block;
+}
+
+
+
+
+.social
+{
+
+position: absolute;
+top: 35%;
+padding-left: 1190px;
+transform: translateY(-50%);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.social li img
+{
+
+width: 70px;
+height: 70px;
+display: block;
+
+}
+.social li 
+
+{
+
+list-style: none;
+display: block;
+
+}
+
+.social li a 
+
+{
+
+ display: inline-block;
+ margin: 5px 0;
+ transform: scale(0.6);
+ filter: invert(1);
+
+}
+
+
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: brown;
+    clip-path: circle(500px at right 800px);
+    display: block;
+
+
+}
+
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form3 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  max-width: 100%;
+  width: 800px;
+}
+
+
+
+
+
+
+
+
+
+    
+}
+
+
